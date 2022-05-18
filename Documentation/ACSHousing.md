@@ -2,7 +2,7 @@
 
 # OCACS Geodemographics Documentation <br> Housing Characteristics
 
-Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.
+*Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.*
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)
 
@@ -18,8 +18,6 @@ For each of the 14 geographies described in the previous section four categories
 Each of the geographies is represented by a separate geodatabase structure. Within of each of the geographic level geodatabases, each of the four characteristics is represented by a _feature class_ respectively. In order to easily identify each of the sub-groups within each category, the name of the original census table field was adjusted by prepending to it the subgroup identification code. For example, the original field B01001e1 would become D01_B01001e1 in the new feature class for the demographic characteristics.
 
 A more detailed description of each sub-group within each of the four feature classes representing the ACS table characteristics is provided below. The table's columns represent: the subgroup's code; its descriptive name;the universe (summative) level of the reference; the ACS cenus table in which the original fields are located; the fields/variables of the data, and; how many fields are included in the subgroup.
-
-<br><br>
 
 #### H: Housing Characteristics (23 groups, 406 fields)
 
@@ -50,8 +48,6 @@ Code|Name|Universe|Table|Fields|Count
 [H21](#h21-contract-rent-distribution-and-rent-asked-distribution-in-dollars-7-variables)|Contract rent distribution and rent asked distribution in dollars|renter-occupied housing units paying cash rent and vacant, for rent, and rented, not occupied housing units|X25|B25056-62|7
 [H22](#h22-gross-rent-28-variables)|Gross rent|occupied units paying rent|X25|B25063-65|28
 [H23](#h23-gross-rent-as-percentage-of-household-income-11-variables)|Gross rent as percentage of household income|occupied units paying rent|X25|B25070|11
-
-<br>
 
 The following fields are included for each of the housing groups:
 
@@ -169,7 +165,5 @@ The following fields are included for each of the housing groups:
 
 > B25070e1 (Occupied units paying rent); B25070e2 (Less than 10.0 percent); B25070e3 (10.0 to 14.9 percent); B25070e4 (15.0 to 19.9 percent); B25070e5 (20.0 to 24.9 percent); B25070e6 (25.0 to 29.9 percent); B25070e7 (30.0 to 34.9 percent); B25070e8 (35.0 to 39.9 percent); B25070e9 (40.0 to 49.9 percent); B25070e10 (50.0 percent or more); B25070e11 (Not computed).
 [<div align="right"><< Back to List</div>](#h-housing-characteristics-23-groups-406-fields)
-
-<br><br>
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)

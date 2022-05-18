@@ -2,7 +2,7 @@
 
 # OCACS Geodemographics Documentation <br> Social Characteristics
 
-Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.
+*Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.*
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)
 
@@ -18,8 +18,6 @@ For each of the 14 geographies described in the previous section four categories
 Each of the geographies is represented by a separate geodatabase structure. Within of each of the geographic level geodatabases, each of the four characteristics is represented by a _feature class_ respectively. In order to easily identify each of the sub-groups within each category, the name of the original census table field was adjusted by prepending to it the subgroup identification code. For example, the original field B01001e1 would become D01_B01001e1 in the new feature class for the demographic characteristics.
 
 A more detailed description of each sub-group within each of the four feature classes representing the ACS table characteristics is provided below. The table's columns represent: the subgroup's code; its descriptive name;the universe (summative) level of the reference; the ACS cenus table in which the original fields are located; the fields/variables of the data, and; how many fields are included in the subgroup.
-
-<br><br>
 
 ## S: Social Characteristics (19 groups, 500 fields)
 
@@ -47,7 +45,6 @@ Code|Name|Universe|Table|Fields|Count
 [S18](#s18-ancestry-114-variables) |Ancestry|total population reporting ancestry|X4|B04006-7|114
 [S19](#s19-computers-and-internet-use-13-variables) |Computers and internet use|total population in households and total households|X28|B28008, B28010-11|13
 
-<br>
 
 The following fields are included for each of the social groups:
 
@@ -145,7 +142,5 @@ The following fields are included for each of the social groups:
 
 > B28008e1 (Population in households); B28008e2 (Has a computer); B28008e4 (With a broadband subscription); B28008e9 (Without internet subscription); B28008e10 (No computer); B28010e1 (Total households); B28010e3 (Households with desktop or laptop); B28010e4 (Households with smartphone, tablet, or other portable wireless computer); B28010e5 (Households without a computer); B28011e2 (Households with an internet subscription); B28011e4 (Households with a broadband connection (cable, fiber optic, DSL)); B28011e5 (Households with satellite internet service); B28011e6 (Households without internet access).
 [<div align="right"><< Back to List</div>](#s-social-characteristics-19-groups-500-fields)
-
-<br><br>
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)

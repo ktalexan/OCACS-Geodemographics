@@ -2,8 +2,7 @@
 
 # OCACS Geodemographics Documentation <br> Demographic Characteristics
 
-
-Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.
+*Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.*
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)
 
@@ -22,7 +21,6 @@ For each of the 14 geographies described in the previous section four categories
 Each of the geographies is represented by a separate geodatabase structure. Within of each of the geographic level geodatabases, each of the four characteristics is represented by a _feature class_ respectively. In order to easily identify each of the sub-groups within each category, the name of the original census table field was adjusted by prepending to it the subgroup identification code. For example, the original field B01001e1 would become D01_B01001e1 in the new feature class for the demographic characteristics.
 
 A more detailed description of each sub-group within each of the four feature classes representing the ACS table characteristics is provided below. The table's columns represent: the subgroup's code; its descriptive name;the universe (summative) level of the reference; the ACS cenus table in which the original fields are located; the fields/variables of the data, and; how many fields are included in the subgroup.
-<br/>
 
 ### D: Demographic Characteristics (6 groups, 105 fields)
 
@@ -37,10 +35,7 @@ Code|Name|Universe|Table|Fields|Count
 [D05](#d05-hispanic-or-latino-and-race-21-variables) |Hispanic or Latino and race|total population|X3|B03002|21
 [D06](#d06-citizen-voting-age-population-8-variables) |Citizen voting age population|citizen, 18 and over|X5|B05003|8
 
-<br>
-
 The following fields are included for each of the demographic groups:
-
 #### D01: Sex And Age (49 variables)
 
 >B01001e1 (Total population); B01001e2 (Male); B01001e3 (Male, under 5 years); B01001e4 (Male, 5 to 9 years); B01001e5 (Male, 10 to 14 years); B01001e6 (Male, 15 to 17 years); B01001e7 (Male, 18 and 19 years); B01001e8 (Male, 20 years); B01001e9 (Male, 21 years); B01001e10 (Male, 22 to 24 years); B01001e11 (Male, 25 to 29 years); B01001e12 (Male, 30 to 34 years); B01001e13 (Male, 35 to 39 years); B01001e14 (Male, 40 to 44 years); B01001e15 (Male, 45 to 49 years); B01001e16 (Male, 50 to 54 years); B01001e17 (Male, 55 to 59 years); B01001e18 (Male, 60 and 61 years); B01001e19 (Male, 62 to 64 years); B01001e20 (Male, 65 and 66 years); B01001e21 (Male, 67 to 69 years); B01001e22 (Male, 70 to 74 years); B01001e23 (Male, 75 to 79 years); B01001e24 (Male, 80 to 84 years); B01001e25 (Male, 85 years and over); B01001e26 (Female); B01001e27 (Female, under 5 years); B01001e28 (Female, 5 to 9 years); B01001e29 (Female, 10 to 14 years); B01001e30 (Female, 15 to 17 years); B01001e31 (Female, 18 and 19 years); B01001e32 (Female, 20 years); B01001e33 (Female, 21 years); B01001e34 (Female, 22 to 24 years); B01001e35 (Female, 25 to 29 years); B01001e36 (Female, 30 to 34 years); B01001e37 (Female, 35 to 39 years); B01001e38 (Female, 40 to 44 years); B01001e39 (Female, 45 to 49 years); B01001e40 (Female, 50 to 54 years); B01001e41 (Female, 55 to 59 years); B01001e42 (Female, 60 and 61 years); B01001e43 (Female, 62 to 64 years); B01001e44 (Female, 65 and 66 years); B01001e45 (Female, 67 to 69 years); B01001e46 (Female, 70 to 74 years); B01001e47 (Female, 75 to 79 years); B01001e48 (Female, 80 to 84 years); B01001e49 (Female, 85 years and over).
@@ -71,6 +66,5 @@ The following fields are included for each of the demographic groups:
 >B05003e8 (Male, 18 years and over); B05003e9 (Male, Native US Citizen, 18 years and over); B05003e11 (Male, Foreign-born Naturalized US Citizen, 18 years and over); B05003e12 (Male, Foreign-born, not a US Citizen, 18 years and over); B05003e19 (Female, 18 years and over); B05003e20 (Female, Native US Citizem, 18 years and over); B05003e22 (Female, Foreign-born, Naturalized US Citizen, 18 years and over); B05003e23 (Female, Foreign-born, not a US Citizen, 18 years and over).
 [<div align="right"><< Back to List</div>](#geodemographic-tables-by-group)
 
-<br><br>
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)

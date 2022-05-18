@@ -2,7 +2,7 @@
 
 # OCACS Geodemographics Documentation <br> Economic Characteristics
 
-Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.
+*Orange County American Community Survey (ACS) Geodemographic Repository <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.*
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)
 ## Geodemographic Tables by group
@@ -18,7 +18,6 @@ Each of the geographies is represented by a separate geodatabase structure. With
 
 A more detailed description of each sub-group within each of the four feature classes representing the ACS table characteristics is provided below. The table's columns represent: the subgroup's code; its descriptive name;the universe (summative) level of the reference; the ACS cenus table in which the original fields are located; the fields/variables of the data, and; how many fields are included in the subgroup.
 
-<br><br>
 ## E: Economic Characteristics (19 groups, 397 fields)
 
 The economic characteristics selected for spatial representation can be found in ACS data tables X8, X17, X19-20, X23-24, and X27. They are divided in 19 subgroups: employment and work status, commuting and travel time to work, vehicles available for workers, means of transportation (age and race), occupation, industry, worker's class, household income and earnings, individual and family income and earnings, health insurance coverage, ratio of income to poverty level, poverty in population, households and families, and poverty income deficit in families estimates.
@@ -44,8 +43,6 @@ Code|Name|Universe|Table|Fields|Count
 [E17](#e17-poverty-in-households-in-the-past-12-months-9-variables) |Poverty in households in the past 12 months|total households|X17|B17017|9
 [E18](#e18-percentage-of-families-and-people-whose-income-in-the-past-12-months-is-below-the-poverty-level-8-variables) |Percentage of families and people whose income in the past 12 months is below the poverty level|families, population|X17|B17010|8
 [E19](#e19-poverty-and-income-deficit-dollars-in-the-past-12-months-for-families-4-variables) |Poverty and income deficit (dollars) in the past 12 months for families|families with income below poverty level in the past 12 months|X17|B17011|4
-
-<br>
 
 The following fields are included for each of the economic groups:
 
@@ -142,7 +139,5 @@ The following fields are included for each of the economic groups:
 
 > B17011e1 (Families below poverty: aggregate income deficit (past 12 months)); B17011e2 (Married couple families below poverty: aggregate income deficit); B17011e4 (Male householder, no wife present below poverty: aggregrate income deficit); B17011e5 (Female householder, no husband present below poverty: aggregate income deficit).
 [<div align="right"><< Back to List</div>](#e-economic-characteristics-19-groups-397-fields)
-
-<br><br>
 
 [<div align="right"><< Back to ReadMe.md</div>](../README.md)
