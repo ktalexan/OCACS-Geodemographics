@@ -1,4 +1,4 @@
-<img align="left" src="OCACS.jpg" width="300" hspace=25 vspace=15>
+<img align="left" src="Documentation/OCACS.jpg" width="400" hspace=25 vspace=15>
 
 # OCACS-Geodemographics
 ## OC Survey American Community Survey (ACS) GeoDemographics Repository
