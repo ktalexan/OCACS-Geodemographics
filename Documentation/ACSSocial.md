@@ -1,4 +1,4 @@
-<img align="left" src="OCDC.jpg" width="300" hspace=25 vspace=15>
+<img align="left" src="OCSC.jpg" width="300" hspace=25 vspace=15>
 
 # OCACS Geodemographics Documentation <br> Social Characteristics
 
