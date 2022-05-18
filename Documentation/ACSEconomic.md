@@ -1,4 +1,6 @@
-# OCACS Geodemographics Documentation
+<img align="left" src="OCEC.jpg" width="300" hspace=25 vspace=15>
+
+# OCACS Geodemographics Documentation <br> Economic Characteristics
 
 Orange County American Community Survey (ACS) Geodemographic Repository
 Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.

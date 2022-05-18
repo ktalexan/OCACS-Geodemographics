@@ -1,4 +1,6 @@
-# OCACS Geodemographics Documentation
+<img align="left" src="OCHC.jpg" width="300" hspace=25 vspace=15>
+
+# OCACS Geodemographics Documentation <br> Housing Characteristics
 
 Orange County American Community Survey (ACS) Geodemographic Repository
 Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019 - 2022.
