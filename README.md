@@ -115,7 +115,8 @@ The dataset incude 14 separate geographies, and 25 data tables per geography in 
 ### Geodemographic Tables by group
 
 For each of the 14 geographies described in the previous section four categories of geodemographic characteristics are linked:
-**1. [Demographic characteristics (6 groups, 105 fields)](Documentation/ACSDemographic.md)**
+
+>**1. [Demographic characteristics (6 groups, 105 fields)](Documentation/ACSDemographic.md)**
 **2. [Social characteristics (19 groups, 500 fields)](Documentation/ACSSocial.md)**
 **3. [Economic characteristics (19 groups, 397 fields)](Documentation/ACSEconomic.md)**
 **4. [Housing characteristics (23 groups, 406 fields)](Documentation/ACSHousing.md)**
