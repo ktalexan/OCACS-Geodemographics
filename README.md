@@ -1,10 +1,6 @@
 # OCACS-Geodemographics
----
-
-Orange County American Community Survey (ACS) Geodemographics
 ## OC Survey American Community Survey (ACS) GeoDemographics Repository
-
-Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019.
+Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019-2022.
 <br/>
 
 ### Description
