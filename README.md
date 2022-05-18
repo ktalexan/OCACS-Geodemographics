@@ -1,18 +1,18 @@
 <img align="left" src="Documentation/OCACS.jpg" width="300" hspace=25 vspace=15>
 
-# OCACS-Geodemographics
-**OC Survey American Community Survey (ACS) GeoDemographics Repository** <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019-2022.
-<br/>
+<h1>OC Survey American Community Survey (ACS)<br>GeoDemographics Repository</h1>
+Dr. Kostas Alexandridis, GISP <br> OC Public Works, OC Survey Geospatial Services, 2019-2022.
+<br/><br/>
 
-### Description
+<h2>Description</h2>
 
 This repository contains basic code for processing, customizing and displaying geodatabases containing the spatially-explicit data of the US Census American Community Survey (ACS), 5-year estimates for the Orange County, California.
 <br/>
 
-### Census Data
+<h2>Census Data</h2>
 
 The original data are downloaded from the US Census TIGER/Line dataset with linked ACS demographic tables.
-**Data source**: [US Census TIGER/Line with Selected Demographic and Economic Data.](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html)
+<b>Data source</b>: <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html">US Census TIGER/Line with Selected Demographic and Economic Data.</a>
 <br/>
 
 ### Geographies included
