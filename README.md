@@ -15,7 +15,7 @@ The original data are downloaded from the US Census TIGER/Line dataset with link
 <b>Data source</b>: <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html" target="_blank">US Census TIGER/Line with Selected Demographic and Economic Data.</a>
 <br/>
 
-### Geographies included
+<h2>Geographies included</h2>
 
 The dataset incude 14 separate geographies, and 25 data tables per geography in each geodatabase. Specifically, the included geographies are:
 
@@ -109,46 +109,145 @@ The dataset incude 14 separate geographies, and 25 data tables per geography in 
 
 <br/>
 
-### Geodemographic Tables by group
+<h2>Geodemographic Tables by group</h2>
 
 For each of the 14 geographies described in the previous section four categories of geodemographic characteristics are linked:
 
-1. [Demographic characteristics (6 groups, 105 fields)](Documentation/ACSDemographic.md)
-2. [Social characteristics (19 groups, 500 fields)](Documentation/ACSSocial.md)
-3. [Economic characteristics (19 groups, 397 fields)](Documentation/ACSEconomic.md)
-4. [Housing characteristics (23 groups, 406 fields)](Documentation/ACSHousing.md)
+<ol>
+    <li><a href="Documentation/ACSDemographic.md"><b>Demographic Characteristics</b> (6 groups, 105 fields)</a></li>
+    <li><a href="Documentation/ACSSocial.md"><b>Social Characteristics</b> (19 groups, 500 fields)</a></li>
+    <li><a href="Documentation/ACSEconomic.md"><b>Economic Characteristics</b> (19 groups, 397 fields)</a></li>
+    <li><a href="Documentation/ACSHousing.md"><b>Housing Characteristics</b> (19 groups, 406 fields)</a></li>
+</ol>
 
 Each of the geographies is represented by a separate geodatabase structure. Within of each of the geographic level geodatabases, each of the four characteristics is represented by a _feature class_ respectively. In order to easily identify each of the sub-groups within each category, the name of the original census table field was adjusted by prepending to it the subgroup identification code. For example, the original field B01001e1 would become D01_B01001e1 in the new feature class for the demographic characteristics.
 
 A more detailed description of each sub-group within each of the four feature classes representing the ACS table characteristics is provided in each of the sections above (opens the documentation markdown file). The table's columns represent: the subgroup's code; its descriptive name;the universe (summative) level of the reference; the ACS cenus table in which the original fields are located; the fields/variables of the data, and; how many fields are included in the subgroup.
 <br/>
 
-### Geodatabase Feature Class Metadata Description
+<h2>Geodatabase Feature Class Metadata Description</h2>
 
 Tabulation of level abbreviations by geography and ACS category characteristics. The 3-letter abbreviation consists of:
+<ul>
+    <li>First and Second letter: Geography level (14-levels)</li>
+    <li>Third letter: ACS category characteristics (4-levels)</li>
+</ul>
 
-* First and Second letter: Geography level (14-levels)
-* Third letter: ACS category characteristics (4-levels)
 
-Total abbreviations: 14 georaphies x 4 characteristics = 56 feature class levels (four in each geodatabase).
-
-Geography|Demographic (D)|Social (S)|Economic (E)|Housing (H)
----|:---:|:---:|:---:|:---:
-County (CO)|COD|COS|COE|COH
-County Subdivision (CS)|CSD|CSS|CSE|CSH
-Cities/Places (PL)|PLD|PLS|PLE|PLH
-ZIP Code Tabulation Areas (ZC)|ZCD|ZCS|ZCE|ZCH
-Congressional Districts (CD)|CDD|CDS|CDE|CDH
-State Assembly Legislative Districts (LL)|LLD|LLS|LLE|LLH
-State Senate Legislative Districts (UL)|ULD|ULS|ULE|ULH
-Elementary School Districts (ED)|EDD|EDS|EDE|EDH
-Secondary School Districts (SD)|SDD|SDS|SDE|SDH
-Unified School Districts (UD)|UDD|UDS|UDE|UDH
-Urban Areas (UA)|UAD|UAS|UAE|UAH
-Public Use Microdata Areas (PU)|PUD|PUS|PUE|PUH
-Block Groups (BG)|BGD|BGS|BGE|BGH
-Census Tracts (TR)|TRD|TRS|TRE|TRH
-
+<table>
+    <caption>Total abbreviations: 14 georaphies x 4 characteristics = 56 feature class levels (four in each geodatabase).</caption>
+    <thead>
+        <tr>
+            <th>Geography</th>
+            <th>Demographic (D)</th>
+            <th>Social (S)</th>
+            <th>Economic (E)</th>
+            <th>Housing (H)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th style="text-align:left">1. County (CO)</th>
+            <td style="text-align:center">COD</td>
+            <td style="text-align:center">COS</td>
+            <td style="text-align:center">COE</td>
+            <td style="text-align:center">COH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">2. County Subdivision (CS)</th>
+            <td style="text-align:center">CSD</td>
+            <td style="text-align:center">CSS</td>
+            <td style="text-align:center">CSE</td>
+            <td style="text-align:center">CSH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">3. Cities/Places (PL)</th>
+            <td style="text-align:center">PLD</td>
+            <td style="text-align:center">PLS</td>
+            <td style="text-align:center">PLE</td>
+            <td style="text-align:center">PLH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">4. ZIP Code Tabulation Areas (ZC)</th>
+            <td style="text-align:center">ZCD</td>
+            <td style="text-align:center">ZCS</td>
+            <td style="text-align:center">ZCE</td>
+            <td style="text-align:center">ZCH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">5. Congressional Districts (CD)</th>
+            <td style="text-align:center">CDD</td>
+            <td style="text-align:center">CDS</td>
+            <td style="text-align:center">CDE</td>
+            <td style="text-align:center">CDH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">6. State Assembly Legislative Districts (LL)</th>
+            <td style="text-align:center">LLD</td>
+            <td style="text-align:center">LLS</td>
+            <td style="text-align:center">LLE</td>
+            <td style="text-align:center">LLH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">7. State Senate Legislative Districts (UL)</th>
+            <td style="text-align:center">ULD</td>
+            <td style="text-align:center">ULS</td>
+            <td style="text-align:center">ULE</td>
+            <td style="text-align:center">ULH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">8. Elementary School Districts (ED)</th>
+            <td style="text-align:center">EDD</td>
+            <td style="text-align:center">EDS</td>
+            <td style="text-align:center">EDE</td>
+            <td style="text-align:center">EDH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">9. Secondary School Districts (SD)</th>
+            <td style="text-align:center">SDD</td>
+            <td style="text-align:center">SDS</td>
+            <td style="text-align:center">SDE</td>
+            <td style="text-align:center">SDH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">10. Unified School Districts (UD)</th>
+            <td style="text-align:center">UDD</td>
+            <td style="text-align:center">UDS</td>
+            <td style="text-align:center">UDE</td>
+            <td style="text-align:center">UDH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">11. Urban Areas (UA)</th>
+            <td style="text-align:center">UAD</td>
+            <td style="text-align:center">UAS</td>
+            <td style="text-align:center">UAE</td>
+            <td style="text-align:center">UAH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">12. Public Use Microdata Areas (PU)</th>
+            <td style="text-align:center">PUD</td>
+            <td style="text-align:center">PUS</td>
+            <td style="text-align:center">PUE</td>
+            <td style="text-align:center">PUH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">13. Block Groups (BG)</th>
+            <td style="text-align:center">BGD</td>
+            <td style="text-align:center">BGS</td>
+            <td style="text-align:center">BGE</td>
+            <td style="text-align:center">BGH</td>
+        </tr>
+        <tr>
+            <th style="text-align:left">14. Census Tracts (TR)</th>
+            <td style="text-align:center">TRD</td>
+            <td style="text-align:center">TRS</td>
+            <td style="text-align:center">TRE</td>
+            <td style="text-align:center">TRH</td>
+        </tr>
+    </tbody>
+</table>
 <br/>
 
-For complete geodatabase metadata information and description, please [follow this link to the full metadata document](Documentation/GeodatabaseMedatada.md)
+For complete geodatabase metadata information and description, please <a href="Documentation/GeodatabaseMetadata.md" target="_blank">follow this link to the full metadata document.</a>
+
+<br/>
