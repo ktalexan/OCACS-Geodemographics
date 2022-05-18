@@ -12,7 +12,7 @@ This repository contains basic code for processing, customizing and displaying g
 <h2>Census Data</h2>
 
 The original data are downloaded from the US Census TIGER/Line dataset with linked ACS demographic tables.
-<b>Data source</b>: <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html">US Census TIGER/Line with Selected Demographic and Economic Data.</a>
+<b>Data source</b>: <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html" target="_blank">US Census TIGER/Line with Selected Demographic and Economic Data.</a>
 <br/>
 
 ### Geographies included
