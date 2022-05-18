@@ -147,98 +147,98 @@ Tabulation of level abbreviations by geography and ACS category characteristics.
     </thead>
     <tbody>
         <tr>
-            <th style="text-align:left">1. County (CO)</th>
+            <td style="text-align:left">1. County (CO)</td>
             <td style="text-align:center">COD</td>
             <td style="text-align:center">COS</td>
             <td style="text-align:center">COE</td>
             <td style="text-align:center">COH</td>
         </tr>
         <tr>
-            <th style="text-align:left">2. County Subdivision (CS)</th>
+            <td style="text-align:left">2. County Subdivision (CS)</td>
             <td style="text-align:center">CSD</td>
             <td style="text-align:center">CSS</td>
             <td style="text-align:center">CSE</td>
             <td style="text-align:center">CSH</td>
         </tr>
         <tr>
-            <th style="text-align:left">3. Cities/Places (PL)</th>
+            <td style="text-align:left">3. Cities/Places (PL)</td>
             <td style="text-align:center">PLD</td>
             <td style="text-align:center">PLS</td>
             <td style="text-align:center">PLE</td>
             <td style="text-align:center">PLH</td>
         </tr>
         <tr>
-            <th style="text-align:left">4. ZIP Code Tabulation Areas (ZC)</th>
+            <td style="text-align:left">4. ZIP Code Tabulation Areas (ZC)</td>
             <td style="text-align:center">ZCD</td>
             <td style="text-align:center">ZCS</td>
             <td style="text-align:center">ZCE</td>
             <td style="text-align:center">ZCH</td>
         </tr>
         <tr>
-            <th style="text-align:left">5. Congressional Districts (CD)</th>
+            <td style="text-align:left">5. Congressional Districts (CD)</td>
             <td style="text-align:center">CDD</td>
             <td style="text-align:center">CDS</td>
             <td style="text-align:center">CDE</td>
             <td style="text-align:center">CDH</td>
         </tr>
         <tr>
-            <th style="text-align:left">6. State Assembly Legislative Districts (LL)</th>
+            <td style="text-align:left">6. State Assembly Legislative Districts (LL)</td>
             <td style="text-align:center">LLD</td>
             <td style="text-align:center">LLS</td>
             <td style="text-align:center">LLE</td>
             <td style="text-align:center">LLH</td>
         </tr>
         <tr>
-            <th style="text-align:left">7. State Senate Legislative Districts (UL)</th>
+            <td style="text-align:left">7. State Senate Legislative Districts (UL)</td>
             <td style="text-align:center">ULD</td>
             <td style="text-align:center">ULS</td>
             <td style="text-align:center">ULE</td>
             <td style="text-align:center">ULH</td>
         </tr>
         <tr>
-            <th style="text-align:left">8. Elementary School Districts (ED)</th>
+            <td style="text-align:left">8. Elementary School Districts (ED)</td>
             <td style="text-align:center">EDD</td>
             <td style="text-align:center">EDS</td>
             <td style="text-align:center">EDE</td>
             <td style="text-align:center">EDH</td>
         </tr>
         <tr>
-            <th style="text-align:left">9. Secondary School Districts (SD)</th>
+            <td style="text-align:left">9. Secondary School Districts (SD)</td>
             <td style="text-align:center">SDD</td>
             <td style="text-align:center">SDS</td>
             <td style="text-align:center">SDE</td>
             <td style="text-align:center">SDH</td>
         </tr>
         <tr>
-            <th style="text-align:left">10. Unified School Districts (UD)</th>
+            <td style="text-align:left">10. Unified School Districts (UD)</td>
             <td style="text-align:center">UDD</td>
             <td style="text-align:center">UDS</td>
             <td style="text-align:center">UDE</td>
             <td style="text-align:center">UDH</td>
         </tr>
         <tr>
-            <th style="text-align:left">11. Urban Areas (UA)</th>
+            <td style="text-align:left">11. Urban Areas (UA)</td>
             <td style="text-align:center">UAD</td>
             <td style="text-align:center">UAS</td>
             <td style="text-align:center">UAE</td>
             <td style="text-align:center">UAH</td>
         </tr>
         <tr>
-            <th style="text-align:left">12. Public Use Microdata Areas (PU)</th>
+            <td style="text-align:left">12. Public Use Microdata Areas (PU)</td>
             <td style="text-align:center">PUD</td>
             <td style="text-align:center">PUS</td>
             <td style="text-align:center">PUE</td>
             <td style="text-align:center">PUH</td>
         </tr>
         <tr>
-            <th style="text-align:left">13. Block Groups (BG)</th>
+            <td style="text-align:left">13. Block Groups (BG)</td>
             <td style="text-align:center">BGD</td>
             <td style="text-align:center">BGS</td>
             <td style="text-align:center">BGE</td>
             <td style="text-align:center">BGH</td>
         </tr>
         <tr>
-            <th style="text-align:left">14. Census Tracts (TR)</th>
+            <td style="text-align:left">14. Census Tracts (TR)</td>
             <td style="text-align:center">TRD</td>
             <td style="text-align:center">TRS</td>
             <td style="text-align:center">TRE</td>
