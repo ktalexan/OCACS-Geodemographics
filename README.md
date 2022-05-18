@@ -1,4 +1,5 @@
-<h1 style= "color: blue;"> OCACS-Geodemographics </h1>
+# OCACS-Geodemographics
+---
 
 Orange County American Community Survey (ACS) Geodemographics
 ## OC Survey American Community Survey (ACS) GeoDemographics Repository
@@ -115,9 +116,9 @@ The dataset incude 14 separate geographies, and 25 data tables per geography in 
 
 For each of the 14 geographies described in the previous section four categories of geodemographic characteristics are linked:
 >**[1. Demographic characteristics (6 groups, 105 fields)](Documentation/ACSDemographic.md)**
-**[2. Social characteristics (19 groups, 500 fields)](Documentation/ACSSocial.md)**
-**[3. Economic characteristics (19 groups, 397 fields)](Documentation/ACSEconomic.md)**
-**[4. Housing characteristics (23 groups, 406 fields)](Documentation/ACSHousing.md)**
+>**[2. Social characteristics (19 groups, 500 fields)](Documentation/ACSSocial.md)**
+>**[3. Economic characteristics (19 groups, 397 fields)](Documentation/ACSEconomic.md)**
+>**[4. Housing characteristics (23 groups, 406 fields)](Documentation/ACSHousing.md)**
 
 Each of the geographies is represented by a separate geodatabase structure. Within of each of the geographic level geodatabases, each of the four characteristics is represented by a _feature class_ respectively. In order to easily identify each of the sub-groups within each category, the name of the original census table field was adjusted by prepending to it the subgroup identification code. For example, the original field B01001e1 would become D01_B01001e1 in the new feature class for the demographic characteristics.
 
