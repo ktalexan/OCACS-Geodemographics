@@ -1,8 +1,7 @@
-<img align="left" src="Documentation/OCACS.jpg" width="400" hspace=25 vspace=15>
+<img align="left" src="Documentation/OCACS.jpg" width="300" hspace=25 vspace=15>
 
 # OCACS-Geodemographics
-## OC Survey American Community Survey (ACS) GeoDemographics Repository
-Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019-2022.
+**OC Survey American Community Survey (ACS) GeoDemographics Repository** <br> Dr. Kostas Alexandridis, GISP. OC Public Works, OC Survey/Geospatial Services, 2019-2022.
 <br/>
 
 ### Description
