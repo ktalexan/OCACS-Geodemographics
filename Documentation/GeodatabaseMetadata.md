@@ -7,8 +7,6 @@
 
 Tabulation of level abbreviations by geography and ACS category characteristics. The 3-letter abbreviation consists of:
 
-Tabulation of level abbreviations by geography and ACS category characteristics. The 3-letter abbreviation consists of:
-
 * First and second letter: *Geography level* (14-levels)
 * Third letter: *ACS category characteristics* (4-levels)
 
