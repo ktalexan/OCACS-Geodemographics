@@ -39,17 +39,17 @@ The specific and detailed metadata documentation for these geographies and chara
 **2013.1.1. County Level Demographic Characteristics**
 
 * **Name**: OCACS2013COD
-* **Title**: OCACS 2013 County Level Selected Demographic Characteristic
+* **Title**: OCACS 2013 County Level Selected Demographic Characteristics
 * **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Demographic Characteristics, Orange County, age, sex, race, Hispanic or Latino, citizen, voting
 * **Summary**: Key demographic characteristics of the 2013 American Community Survey (ACS), 5-year estimates in Orange County, California.
-* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics for Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
-* **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
-* **Map**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-orange-county
-* **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-orange-county/about
-* **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Orange_County/FeatureServer/
-* **Metadata**: https://www.arcgis.com/sharing/rest/content/items/c6ede376a36a46158a1e482a012b5054/info/metadata/metadata.xml?format=default&output=html
-* **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Orange_County/FeatureServer/1/query?outFields=*&where=1%3D1
-* **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Orange_County/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
+* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics for Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (<https://github.com/ktalexan/OCACS-Geodemographics>).
+* **Terms of Use**: Original datasets from US Census TigerLine Geography (<https://www.census.gov/geo/maps-data/data/tiger-line.html>), and American FactFinder (<https://factfinder.census.gov/>) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+* **Map**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-orange-county>
+* **Web**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-orange-county/about>
+* **REST**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Orange_County/FeatureServer/>
+* **Metadata**: <https://www.arcgis.com/sharing/rest/content/items/c6ede376a36a46158a1e482a012b5054/info/metadata/metadata.xml?format=default&output=html>
+* **GeoService API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Orange_County/FeatureServer/1/query?outFields=*&where=1%3D1>
+* **GeoJSON API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Orange_County/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson>
 
 **2013.1.2. County Subdivision Demographic Characteristics**
 
@@ -57,14 +57,14 @@ The specific and detailed metadata documentation for these geographies and chara
 * **Title**: OCACS 2013 County Subdivisions Selected Demographic Characteristics
 * **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Demographic Characteristics, County Subdivisions, age, sex, race, Hispanic or Latino, citizen, voting
 * **Summary**: Key demographic characteristics of the 2013 American Community Survey (ACS), 5-year estimates for County Subdivisions in Orange County, California.
-* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics of County Subdivisions geographic level in Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
-* **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
-* **Map**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-county-subdivisions
-* **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-county-subdivisions/about
-* **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_County_Subdivisions/FeatureServer/
-* **Metadata**: https://www.arcgis.com/sharing/rest/content/items/f582b6f52e26483590b8cf1514c764e6/info/metadata/metadata.xml?format=default&output=html
-* **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_County_Subdivisions/FeatureServer/1/query?outFields=*&where=1%3D1
-* **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_County_Subdivisions/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
+* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics of County Subdivisions geographic level in Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (<https://github.com/ktalexan/OCACS-Geodemographics>).
+* **Terms of Use**: Original datasets from US Census TigerLine Geography (<https://www.census.gov/geo/maps-data/data/tiger-line.html>), and American FactFinder (<https://factfinder.census.gov/>) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+* **Map**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-county-subdivisions>
+* **Web**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-county-subdivisions/about>
+* **REST**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_County_Subdivisions/FeatureServer/>
+* **Metadata**: <https://www.arcgis.com/sharing/rest/content/items/f582b6f52e26483590b8cf1514c764e6/info/metadata/metadata.xml?format=default&output=html>
+* **GeoService API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_County_Subdivisions/FeatureServer/1/query?outFields=*&where=1%3D1>
+* **GeoJSON API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_County_Subdivisions/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson>
 
 **2013.1.3. Cities/Places Demographic Characteristics**
 
@@ -72,59 +72,59 @@ The specific and detailed metadata documentation for these geographies and chara
 * **Title**:OCACS 2013 Cities Selected Demographic Characteristics
 * **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Demographic Characteristics, Cities, Places, age, sex, race, Hispanic or Latino, citizen, voting
 * **Summary**: Key demographic characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Cities/Places in Orange County, California.
-* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics of Cities/Places geographic level in Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
-* **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
-* **Map**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-cities
-* **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-cities/about
-* **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/
-* **Metadata**: https://www.arcgis.com/sharing/rest/content/items/d06f3b3906e646a2b555c45079475039/info/metadata/metadata.xml?format=default&output=html
-* **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1
-* **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
+* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics of Cities/Places geographic level in Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (<https://github.com/ktalexan/OCACS-Geodemographics>).
+* **Terms of Use**: Original datasets from US Census TigerLine Geography (<https://www.census.gov/geo/maps-data/data/tiger-line.html>), and American FactFinder (<https://factfinder.census.gov/>) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+* **Map**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-cities>
+* **Web**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-cities/about>
+* **REST**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/>
+* **Metadata**: <https://www.arcgis.com/sharing/rest/content/items/d06f3b3906e646a2b555c45079475039/info/metadata/metadata.xml?format=default&output=html>
+* **GeoService API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1>
+* **GeoJSON API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson>
 
 **2013.1.4. ZIP Code Tabulation Areas Demographic Characteristics**
 
-* **Name**:
-* **Title**:
-* **Tags**: 
-* **Summary**:
-* **Description**:
-* **Terms of Use**:
-* **Map**:
-* **Web**:
-* **REST**:
-* **Metadata**:
-* **GeoService API**:
-* **GeoJSON API**:
+* **Name**: OCACS2013PLD
+* **Title**: OCACS 2013 Cities Selected Demographic Characteristics
+* **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Demographic Characteristics, Cities, Places, age, sex, race, Hispanic or Latino, citizen, voting
+* **Summary**: Key demographic characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Cities/Places in Orange County, California.
+* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics of Cities/Places geographic level in Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (<https://github.com/ktalexan/OCACS-Geodemographics>).
+* **Terms of Use**: Original datasets from US Census TigerLine Geography (<https://www.census.gov/geo/maps-data/data/tiger-line.html>), and American FactFinder (<https://factfinder.census.gov/>) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+* **Map**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-cities>
+* **Web**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-cities/about>
+* **REST**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/>
+* **Metadata**: <https://www.arcgis.com/sharing/rest/content/items/d06f3b3906e646a2b555c45079475039/info/metadata/metadata.xml?format=default&output=html>
+* **GeoService API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1>
+* **GeoJSON API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson>
 
 **2013.1.5. Congressional Districts Demographic Characteristics**
 
-* **Name**:
-* **Title**:
-* **Tags**: 
-* **Summary**:
-* **Description**:
-* **Terms of Use**:
-* **Map**:
-* **Web**:
-* **REST**:
-* **Metadata**:
-* **GeoService API**:
-* **GeoJSON API**:
+* **Name**: OCACS2013ZCD
+* **Title**: OCACS 2013 ZIP Code Tabulation Areas Selected Demographic Characteristics
+* **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Demographic Characteristics, ZIP Code, age, sex, race, Hispanic or Latino, citizen, voting
+* **Summary**: Key demographic characteristics of the 2013 American Community Survey (ACS), 5-year estimates for ZIP Code Tabulation Areas in Orange County, California.
+* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics of ZIP Code Tabulation Areas geographic level in Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (<https://github.com/ktalexan/OCACS-Geodemographics>).
+* **Terms of Use**: Original datasets from US Census TigerLine Geography (<https://www.census.gov/geo/maps-data/data/tiger-line.html>), and American FactFinder (<https://factfinder.census.gov/>) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+* **Map**: <https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-demographic-characteristics-for-zip-code-tabulation-areas>
+* **Web**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-zip-code-tabulation-areas/about>
+* **REST**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_ZIP_Code_Tabulation_Areas/FeatureServer>
+* **Metadata**: <https://www.arcgis.com/sharing/rest/content/items/e28bee0162ea4704b1332d5f0c36acbf/info/metadata/metadata.xml?format=default&output=html>
+* **GeoService API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_ZIP_Code_Tabulation_Areas/FeatureServer/1/query?outFields=*&where=1%3D1>
+* **GeoJSON API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_ZIP_Code_Tabulation_Areas/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson>
 
 **2013.1.6. State Assembly Legislative Districts Demographic Characteristics**
 
-* **Name**:
-* **Title**:
-* **Tags**: 
-* **Summary**:
-* **Description**:
-* **Terms of Use**:
-* **Map**:
-* **Web**:
-* **REST**:
-* **Metadata**:
-* **GeoService API**:
-* **GeoJSON API**:
+* **Name**: OCACS2013CDD
+* **Title**: OCACS 2013 Congressional Districts Selected Demographic Characteristics
+* **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Demographic Characteristics, Congressional Districts, 115th US Congress, age, sex, race, Hispanic or Latino, citizen, voting
+* **Summary**: Key demographic characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Congressional Districts (115th US Congress) in Orange County, California.
+* **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key demographic characteristics of Congressional Districts (115th US Congress) geographic level in Orange County, California. The data contains 105 fields for the variable groups D01: Sex and age (universe: total population, table X1, 49 fields); D02: Median age by sex and race (universe: total population, table X1, 12 fields); D03: Race (universe: total population, table X2, 8 fields); D04: Race alone or in combination with one or more other races (universe: total population, table X2, 7 fields); D05: Hispanic or Latino and race (universe: total population, table X3, 21 fields), and; D06: Citizen voting age population (universe: citizen, 18 and over, table X5, 8 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (<https://github.com/ktalexan/OCACS-Geodemographics>).
+* **Terms of Use**: Original datasets from US Census TigerLine Geography (<https://www.census.gov/geo/maps-data/data/tiger-line.html>), and American FactFinder (<https://factfinder.census.gov/>) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+* **Map**: <https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-demographic-characteristics-for-congressional-districts-of-the-113th-us-congress>
+* **Web**: <https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-demographic-characteristics-for-congressional-districts-of-the-113th-us-congress/about>
+* **REST**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Congressional_Districts_of_the_113th_US_Congress/FeatureServer>
+* **Metadata**: <https://www.arcgis.com/sharing/rest/content/items/f2df0ab4709d4a1eb8a729b41e716e61/info/metadata/metadata.xml?format=default&output=html>
+* **GeoService API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Congressional_Districts_of_the_113th_US_Congress/FeatureServer/1/query?outFields=*&where=1%3D1>
+* **GeoJSON API**: <https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Demographic_Characteristics_for_Congressional_Districts_of_the_113th_US_Congress/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson>
 
 **2013.1.7. State Senate Legislative Districts Demographic Characteristics**
 
