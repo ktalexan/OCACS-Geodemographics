@@ -714,239 +714,239 @@ The specific and detailed metadata documentation for these geographies and chara
 ---
 > #### 2013.2.1. County Level Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013COS
+- **Title**: OCACS 2013 County Level Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Orange County, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics for Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-orange-county
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-orange-county/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Orange_County/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/03a15df1170b4e18871b503f35ad52d8/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Orange_County/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Orange_County/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.2. County Subdivision Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013CSS
+- **Title**: OCACS 2013 County Subdivisions Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, County Subdivisions, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for County Subdivisions in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of County Subdivisions geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-county-subdivisions
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-county-subdivisions/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_County_Subdivisions/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/29312e159f694aac853ce2f6c3845226/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_County_Subdivisions/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_County_Subdivisions/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.3. Cities/Places Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013PLS
+- **Title**: OCACS 2013 Cities Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Cities, Places, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Cities/Places in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Cities/Places geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-cities
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-cities/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Cities/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/755451e8674744f9ae8734a4619a40a6/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Cities/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.4. ZIP Code Tabulation Areas Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013ZCS
+- **Title**: OCACS 2013 ZIP Code Tabulation Areas Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, ZIP Code, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for ZIP Code Tabulation Areas in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of ZIP Code Tabulation Areas geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-zip-code-tabulation-areas
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-zip-code-tabulation-areas/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_ZIP_Code_Tabulation_Areas/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/02cf6cfd262c4a6c97ffd93223c32f4b/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_ZIP_Code_Tabulation_Areas/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_ZIP_Code_Tabulation_Areas/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.5. Congressional Districts Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013CDS
+- **Title**: OCACS 2013 Congressional Districts Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Congressional Districts, 115th US Congress, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Congressional Districts (115th US Congress) in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Congressional Districts (115th US Congress) geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-congressional-districts-of-the-113th-us-congress
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-congressional-districts-of-the-113th-us-congress/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Congressional_Districts_of_the_113th_US_Congress/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/e5b62440345d44f29b6dd6120d3751db/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Congressional_Districts_of_the_113th_US_Congress/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Congressional_Districts_of_the_113th_US_Congress/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.6. State Assembly Legislative Districts Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013LLS
+- **Title**: OCACS 2013 State Assembly Legislative Districts Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, State Assembly, Legislative Districts, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for State Assembly Legislative Districts (Lower) in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of State Assembly Legislative Districts (Lower) geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-state-assembly-legislative-districts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-state-assembly-legislative-districts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_State_Assembly_Legislative_Districts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/2682ced5a44345f8a8af5e0e144a19bd/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_State_Assembly_Legislative_Districts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_State_Assembly_Legislative_Districts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.7. State Senate Legislative Districts Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013ULS
+- **Title**: OCACS 2013 State Senate Legislative Districts Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, State Senate, Legislative Districts, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for State Senate Legislative Districts (Upper) in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of State Senate Legislative Districts (Upper) geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-state-senate-legislative-districts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-state-senate-legislative-districts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_State_Senate_Legislative_Districts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/d0b2f63ea44b4079a2db174ff1c15553/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_State_Senate_Legislative_Districts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_State_Senate_Legislative_Districts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.8. Elementary School Districts Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013EDS
+- **Title**: OCACS 2013 Elementary School Districts Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Elementary School Districts, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Elementary School Districts in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Elementary School Districts geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-elementary-school-districts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-elementary-school-districts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Elementary_School_Districts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/58b0b56bd0a64029b49f823a282126d8/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Elementary_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Elementary_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.9. Secondary School Districts Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013SDS
+- **Title**: OCACS 2013 Secondary School Districts Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Secondary School Districts, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Secondary School Districts in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Secondary School Districts geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-secondary-school-districts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-secondary-school-districts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Secondary_School_Districts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/bff62c8aa8614a92b71de9d185914ce9/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Secondary_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Secondary_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.10. Unified School Districts Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013UDS
+- **Title**: OCACS 2013 Unified School Districts Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Unified School Districts, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Unified School Districts in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Unified School Districts geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-unified-school-districts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-unified-school-districts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Unified_School_Districts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/98ddfdb42f8d4a1e8dc4b41bff8a002a/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Unified_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Unified_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.11. Urban Areas Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013UAS
+- **Title**: OCACS 2013 Urban Areas Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Urban Areas, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Urban Areas in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Urban Areas geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-urban-areas
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-urban-areas/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Urban_Areas/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/884592c81d91472da8755f67e70b353d/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Urban_Areas/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Urban_Areas/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.12. Public Use Microdata Areas Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013PUS
+- **Title**: OCACS 2013 Public Use Microdata Areas Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Public Use Microdata Areas, PUMA, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Public Use Microdata Areas (PUMA) in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Public Use Microdata Areas (PUMA) geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-public-use-microdata-areas
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-public-use-microdata-areas/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Public_Use_Microdata_Areas/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/c2098f9e120f418494701d60e1a7da95/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Public_Use_Microdata_Areas/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Public_Use_Microdata_Areas/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.13. Block Groups Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013BGS
+- **Title**: OCACS 2013 Block Groups Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Block Groups, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**: Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Block Groups in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Block Groups geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-block-groups
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-block-groups/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Block_Groups/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/b6bf717a154f45f6b6a07875e720997e/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Block_Groups/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Block_Groups/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.2.14. Census Tracts Social Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013TRS
+- **Title**: OCACS 2013 Census Tracts Selected Social Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Social Characteristics, Census Tracts, households, relationship, marital status, Fertility, grandparents, school enrollment, educational attainment, veteran status, disability, residence, place of birth, citizenship, region of birth, language spoken, ancestry, computer use, internet use
+- **Summary**:  Key social characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Census Tracts in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key social characteristics of Census Tract geographic level in Orange County, California. The data contains 500 fields for the variable groups S01: Households by type (universe: total households, table X11, 17 fields); S02: Relationship (universe: population in households, table X9, 19 fields); S03: Marital status (universe: population 15 years and over, table X12, 13 fields); S04: Fertility (universe: women 15-50 years who had birth in the past 12 months, table X13, 11 fields); S05: Grandparents (universe: grandparents living or responsible for own grandchildren under 18 years, table X10, 18 fields); S06: School enrollment (universe: population 3 years old and over enrolled in school, table X14, 17 fields); S07: Educational attainment (universe: population 25 years and over, table X15, 25 fields); S08: Veteran status (universe: civilian population 18 years and over, table X21, 2 fields); S09: Disability status and type by sex and age (universe: total civilian non-institutionalized population, table X18, 77 fields); S10: Disability status by age and health insurance coverage (universe: civilian non-institutionalized population, table X18, 16 fields); S11: Residence 1 year ago (universe: population 1 year and over, table X7, 6 fields); S12: Place of birth (universe: total population, table X5, 27 fields); S13: Citizenship status by nativity in the US (universe: total population, table X5, 6 fields); S14: Year of entry (universe: population born outside the US, table X5, 21 fields); S15: World region of birth of foreign born population (universe: foreign born population, excluding population born at sea, table X5, 25 fields); S16: Language spoken in households (universe: total households, table X16, 6 fields); S17: Language spoken at home (universe: population 5 years and over, table X16, 67 fields); S18: Ancestry (universe: total population reporting ancestry, table X4, 114 fields), and; S19: Computers and internet use (universe: total population in households and total households, table X28, 13 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-social-characteristics-for-census-tracts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-social-characteristics-for-census-tracts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Census_Tracts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/a4e704cfbed04190973cb29b94c247e3/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Census_Tracts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Social_Characteristics_for_Census_Tracts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
@@ -1333,103 +1333,103 @@ The specific and detailed metadata documentation for these geographies and chara
 
 > #### 2013.4.9. Secondary School Districts Housing Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013SDH
+- **Title**: OCACS 2013 Secondary School Districts Selected Housing Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Housing Characteristics, Secondary School Districts, housing occupancy, units, tenure, year built, rooms, bedrooms, vacancy status, vehicles, heating fuel, kitchen, plumbing, occupants, housing value, price asked, mortgage status, owner costs, rent value, gross rent
+- **Summary**: Key housing characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Secondary School Districts in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key housing characteristics of Secondary School Districts geographic level in Orange County, California. The data contains 406 fields for the variable groups H01: Housing occupancy (universe: total housing units, table X25, 3 fields); H02: Units in structure (universe: total housing units, table X25, 11 fields); H03: Population in occupied housing units by tenure by units in structure (universe: total population in occupied housing units, table X25, 13 fields); H04: Year structure built (universe: total housing units, table X25, 15 fields); H05: Rooms (universe: total housing units, table X25, 18 fields); H06: Bedrooms (universe: total housing units, table X25, 21 fields); H07: Housing tenure by race of householder (universe: occupied housing units, table X25, 51 fields); H08: Total population in occupied housing units by tenure (universe: total population in occupied housing units, table X25, 3 fields); H09: Vacancy status (universe: vacant housing units, table X25, 8 fields); H10: Occupied housing units by race of householder (universe: occupied housing units, table X25, 8 fields); H11: Year householder moved into unit (universe: occupied housing units, table X25, 18 fields); H12: Vehicles available (universe: occupied housing units, table X25, 18 fields); H13: Housing heating fuel (universe: occupied housing units, table X25, 10 fields); H14: Selected housing characteristics (universe: occupied housing units, table X25, 9 fields); H15: Occupants per room (universe: occupied housing units, table X25, 13 fields); H16: Housing value (universe: owner-occupied units, table X25, 32 fields); H17: Price asked for vacant for sale only, and sold not occupied housing units (universe: vacant for sale only, and sold not occupied housing units, table X25, 28 fields); H18: Mortgage status (universe: owner-occupied units, table X25, 10 fields); H19: Selected monthly owner costs, SMOC (universe: owner-occupied housing units with or without a mortgage, table X25, 45 fields); H20: Selected monthly owner costs as a percentage of household income, SMOCAPI (universe: owner-occupied housing units with or without a mortgage, table X25, 26 fields); H21: Contract rent distribution and rent asked distribution in dollars (universe: renter-occupied housing units paying cash rent and vacant, for rent, and rented not occupied housing units, table X25, 7 fields); H22: Gross rent (universe: occupied units paying rent, table X25, 28 fields), and; X23: Gross rent as percentage of household income (universe: occupied units paying rent, table X25, 11 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-housing-characteristics-for-secondary-school-districts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-housing-characteristics-for-secondary-school-districts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Secondary_School_Districts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/b294c080a0d646309a0ec1bb91880a82/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Secondary_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Secondary_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.4.10. Unified School Districts Housing Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013UDH
+- **Title**: OCACS 2013 Unified School Districts Selected Housing Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Housing Characteristics, Unified School Districts, housing occupancy, units, tenure, year built, rooms, bedrooms, vacancy status, vehicles, heating fuel, kitchen, plumbing, occupants, housing value, price asked, mortgage status, owner costs, rent value, gross rent
+- **Summary**: Key housing characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Unified School Districts in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key housing characteristics of Unified School Districts geographic level in Orange County, California. The data contains 406 fields for the variable groups H01: Housing occupancy (universe: total housing units, table X25, 3 fields); H02: Units in structure (universe: total housing units, table X25, 11 fields); H03: Population in occupied housing units by tenure by units in structure (universe: total population in occupied housing units, table X25, 13 fields); H04: Year structure built (universe: total housing units, table X25, 15 fields); H05: Rooms (universe: total housing units, table X25, 18 fields); H06: Bedrooms (universe: total housing units, table X25, 21 fields); H07: Housing tenure by race of householder (universe: occupied housing units, table X25, 51 fields); H08: Total population in occupied housing units by tenure (universe: total population in occupied housing units, table X25, 3 fields); H09: Vacancy status (universe: vacant housing units, table X25, 8 fields); H10: Occupied housing units by race of householder (universe: occupied housing units, table X25, 8 fields); H11: Year householder moved into unit (universe: occupied housing units, table X25, 18 fields); H12: Vehicles available (universe: occupied housing units, table X25, 18 fields); H13: Housing heating fuel (universe: occupied housing units, table X25, 10 fields); H14: Selected housing characteristics (universe: occupied housing units, table X25, 9 fields); H15: Occupants per room (universe: occupied housing units, table X25, 13 fields); H16: Housing value (universe: owner-occupied units, table X25, 32 fields); H17: Price asked for vacant for sale only, and sold not occupied housing units (universe: vacant for sale only, and sold not occupied housing units, table X25, 28 fields); H18: Mortgage status (universe: owner-occupied units, table X25, 10 fields); H19: Selected monthly owner costs, SMOC (universe: owner-occupied housing units with or without a mortgage, table X25, 45 fields); H20: Selected monthly owner costs as a percentage of household income, SMOCAPI (universe: owner-occupied housing units with or without a mortgage, table X25, 26 fields); H21: Contract rent distribution and rent asked distribution in dollars (universe: renter-occupied housing units paying cash rent and vacant, for rent, and rented not occupied housing units, table X25, 7 fields); H22: Gross rent (universe: occupied units paying rent, table X25, 28 fields), and; X23: Gross rent as percentage of household income (universe: occupied units paying rent, table X25, 11 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-housing-characteristics-for-unified-school-districts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-housing-characteristics-for-unified-school-districts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Unified_School_Districts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/661c87a9a04948638841c838f265b4df/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Unified_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Unified_School_Districts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.4.11. Urban Areas Housing Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013UAH
+- **Title**: OCACS 2013 Urban Areas Selected Housing Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Housing Characteristics, Urban Areas, housing occupancy, units, tenure, year built, rooms, bedrooms, vacancy status, vehicles, heating fuel, kitchen, plumbing, occupants, housing value, price asked, mortgage status, owner costs, rent value, gross rent
+- **Summary**: Key housing characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Urban Areas in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key housing characteristics of Urban Areas geographic level in Orange County, California. The data contains 406 fields for the variable groups H01: Housing occupancy (universe: total housing units, table X25, 3 fields); H02: Units in structure (universe: total housing units, table X25, 11 fields); H03: Population in occupied housing units by tenure by units in structure (universe: total population in occupied housing units, table X25, 13 fields); H04: Year structure built (universe: total housing units, table X25, 15 fields); H05: Rooms (universe: total housing units, table X25, 18 fields); H06: Bedrooms (universe: total housing units, table X25, 21 fields); H07: Housing tenure by race of householder (universe: occupied housing units, table X25, 51 fields); H08: Total population in occupied housing units by tenure (universe: total population in occupied housing units, table X25, 3 fields); H09: Vacancy status (universe: vacant housing units, table X25, 8 fields); H10: Occupied housing units by race of householder (universe: occupied housing units, table X25, 8 fields); H11: Year householder moved into unit (universe: occupied housing units, table X25, 18 fields); H12: Vehicles available (universe: occupied housing units, table X25, 18 fields); H13: Housing heating fuel (universe: occupied housing units, table X25, 10 fields); H14: Selected housing characteristics (universe: occupied housing units, table X25, 9 fields); H15: Occupants per room (universe: occupied housing units, table X25, 13 fields); H16: Housing value (universe: owner-occupied units, table X25, 32 fields); H17: Price asked for vacant for sale only, and sold not occupied housing units (universe: vacant for sale only, and sold not occupied housing units, table X25, 28 fields); H18: Mortgage status (universe: owner-occupied units, table X25, 10 fields); H19: Selected monthly owner costs, SMOC (universe: owner-occupied housing units with or without a mortgage, table X25, 45 fields); H20: Selected monthly owner costs as a percentage of household income, SMOCAPI (universe: owner-occupied housing units with or without a mortgage, table X25, 26 fields); H21: Contract rent distribution and rent asked distribution in dollars (universe: renter-occupied housing units paying cash rent and vacant, for rent, and rented not occupied housing units, table X25, 7 fields); H22: Gross rent (universe: occupied units paying rent, table X25, 28 fields), and; X23: Gross rent as percentage of household income (universe: occupied units paying rent, table X25, 11 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-housing-characteristics-for-urban-areas
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-housing-characteristics-for-urban-areas/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Urban_Areas/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/f5db27ebd6ca45c9bdcd5d3221a01f26/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Urban_Areas/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Urban_Areas/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.4.12. Public Use Microdata Areas Housing Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013PUH
+- **Title**: OCACS 2013 Public Use Microdata Areas Selected Housing Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Housing Characteristics, Public Use Microdata Areas, PUMA, housing occupancy, units, tenure, year built, rooms, bedrooms, vacancy status, vehicles, heating fuel, kitchen, plumbing, occupants, housing value, price asked, mortgage status, owner costs, rent value, gross rent
+- **Summary**: Key housing characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Public Use Microdata Areas (PUMA) in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key housing characteristics of Public Use Microdata Areas (PUMA) geographic level in Orange County, California. The data contains 406 fields for the variable groups H01: Housing occupancy (universe: total housing units, table X25, 3 fields); H02: Units in structure (universe: total housing units, table X25, 11 fields); H03: Population in occupied housing units by tenure by units in structure (universe: total population in occupied housing units, table X25, 13 fields); H04: Year structure built (universe: total housing units, table X25, 15 fields); H05: Rooms (universe: total housing units, table X25, 18 fields); H06: Bedrooms (universe: total housing units, table X25, 21 fields); H07: Housing tenure by race of householder (universe: occupied housing units, table X25, 51 fields); H08: Total population in occupied housing units by tenure (universe: total population in occupied housing units, table X25, 3 fields); H09: Vacancy status (universe: vacant housing units, table X25, 8 fields); H10: Occupied housing units by race of householder (universe: occupied housing units, table X25, 8 fields); H11: Year householder moved into unit (universe: occupied housing units, table X25, 18 fields); H12: Vehicles available (universe: occupied housing units, table X25, 18 fields); H13: Housing heating fuel (universe: occupied housing units, table X25, 10 fields); H14: Selected housing characteristics (universe: occupied housing units, table X25, 9 fields); H15: Occupants per room (universe: occupied housing units, table X25, 13 fields); H16: Housing value (universe: owner-occupied units, table X25, 32 fields); H17: Price asked for vacant for sale only, and sold not occupied housing units (universe: vacant for sale only, and sold not occupied housing units, table X25, 28 fields); H18: Mortgage status (universe: owner-occupied units, table X25, 10 fields); H19: Selected monthly owner costs, SMOC (universe: owner-occupied housing units with or without a mortgage, table X25, 45 fields); H20: Selected monthly owner costs as a percentage of household income, SMOCAPI (universe: owner-occupied housing units with or without a mortgage, table X25, 26 fields); H21: Contract rent distribution and rent asked distribution in dollars (universe: renter-occupied housing units paying cash rent and vacant, for rent, and rented not occupied housing units, table X25, 7 fields); H22: Gross rent (universe: occupied units paying rent, table X25, 28 fields), and; X23: Gross rent as percentage of household income (universe: occupied units paying rent, table X25, 11 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-housing-characteristics-for-public-use-microdata-areas
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-housing-characteristics-for-public-use-microdata-areas/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Public_Use_Microdata_Areas/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/e3c056d6834e4bf7a83c9a815f66f5ac/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Public_Use_Microdata_Areas/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Public_Use_Microdata_Areas/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.4.13. Block Groups Housing Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013BGH
+- **Title**: OCACS 2013 Block Groups Selected Housing Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Housing Characteristics, Block Groups, housing occupancy, units, tenure, year built, rooms, bedrooms, vacancy status, vehicles, heating fuel, kitchen, plumbing, occupants, housing value, price asked, mortgage status, owner costs, rent value, gross rent
+- **Summary**: Key housing characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Block Groups in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key housing characteristics of Block Groups geographic level in Orange County, California. The data contains 406 fields for the variable groups H01: Housing occupancy (universe: total housing units, table X25, 3 fields); H02: Units in structure (universe: total housing units, table X25, 11 fields); H03: Population in occupied housing units by tenure by units in structure (universe: total population in occupied housing units, table X25, 13 fields); H04: Year structure built (universe: total housing units, table X25, 15 fields); H05: Rooms (universe: total housing units, table X25, 18 fields); H06: Bedrooms (universe: total housing units, table X25, 21 fields); H07: Housing tenure by race of householder (universe: occupied housing units, table X25, 51 fields); H08: Total population in occupied housing units by tenure (universe: total population in occupied housing units, table X25, 3 fields); H09: Vacancy status (universe: vacant housing units, table X25, 8 fields); H10: Occupied housing units by race of householder (universe: occupied housing units, table X25, 8 fields); H11: Year householder moved into unit (universe: occupied housing units, table X25, 18 fields); H12: Vehicles available (universe: occupied housing units, table X25, 18 fields); H13: Housing heating fuel (universe: occupied housing units, table X25, 10 fields); H14: Selected housing characteristics (universe: occupied housing units, table X25, 9 fields); H15: Occupants per room (universe: occupied housing units, table X25, 13 fields); H16: Housing value (universe: owner-occupied units, table X25, 32 fields); H17: Price asked for vacant for sale only, and sold not occupied housing units (universe: vacant for sale only, and sold not occupied housing units, table X25, 28 fields); H18: Mortgage status (universe: owner-occupied units, table X25, 10 fields); H19: Selected monthly owner costs, SMOC (universe: owner-occupied housing units with or without a mortgage, table X25, 45 fields); H20: Selected monthly owner costs as a percentage of household income, SMOCAPI (universe: owner-occupied housing units with or without a mortgage, table X25, 26 fields); H21: Contract rent distribution and rent asked distribution in dollars (universe: renter-occupied housing units paying cash rent and vacant, for rent, and rented not occupied housing units, table X25, 7 fields); H22: Gross rent (universe: occupied units paying rent, table X25, 28 fields), and; X23: Gross rent as percentage of household income (universe: occupied units paying rent, table X25, 11 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-housing-characteristics-for-block-groups
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-housing-characteristics-for-block-groups/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Block_Groups/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/fdc6684cc8a4492b8945d096f68ec92f/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Block_Groups/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Block_Groups/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
 > #### 2013.4.14. Census Tracts Housing Characteristics
 
-- **Name**: 
-- **Title**: 
-- **Tags**: 
-- **Summary**: 
-- **Description**: 
-- **Terms of Use**: 
-- **Map**: 
-- **Web**: 
-- **REST**: 
-- **Metadata**: 
-- **GeoService API**: 
-- **GeoJSON API**: 
+- **Name**: OCACS2013TRH
+- **Title**: OCACS 2013 Census Tracts Selected Housing Characteristics
+- **Tags**: geodemographics, Orange County, California, US Census, ACS, American Community Survey, Housing Characteristics, Census Tracts, housing occupancy, units, tenure, year built, rooms, bedrooms, vacancy status, vehicles, heating fuel, kitchen, plumbing, occupants, housing value, price asked, mortgage status, owner costs, rent value, gross rent
+- **Summary**: Key housing characteristics of the 2013 American Community Survey (ACS), 5-year estimates for Census Tracts in Orange County, California.
+- **Description**: US Census American Community Survey (ACS) 2013, 5-year estimates of the key housing characteristics of Census Tracts geographic level in Orange County, California. The data contains 406 fields for the variable groups H01: Housing occupancy (universe: total housing units, table X25, 3 fields); H02: Units in structure (universe: total housing units, table X25, 11 fields); H03: Population in occupied housing units by tenure by units in structure (universe: total population in occupied housing units, table X25, 13 fields); H04: Year structure built (universe: total housing units, table X25, 15 fields); H05: Rooms (universe: total housing units, table X25, 18 fields); H06: Bedrooms (universe: total housing units, table X25, 21 fields); H07: Housing tenure by race of householder (universe: occupied housing units, table X25, 51 fields); H08: Total population in occupied housing units by tenure (universe: total population in occupied housing units, table X25, 3 fields); H09: Vacancy status (universe: vacant housing units, table X25, 8 fields); H10: Occupied housing units by race of householder (universe: occupied housing units, table X25, 8 fields); H11: Year householder moved into unit (universe: occupied housing units, table X25, 18 fields); H12: Vehicles available (universe: occupied housing units, table X25, 18 fields); H13: Housing heating fuel (universe: occupied housing units, table X25, 10 fields); H14: Selected housing characteristics (universe: occupied housing units, table X25, 9 fields); H15: Occupants per room (universe: occupied housing units, table X25, 13 fields); H16: Housing value (universe: owner-occupied units, table X25, 32 fields); H17: Price asked for vacant for sale only, and sold not occupied housing units (universe: vacant for sale only, and sold not occupied housing units, table X25, 28 fields); H18: Mortgage status (universe: owner-occupied units, table X25, 10 fields); H19: Selected monthly owner costs, SMOC (universe: owner-occupied housing units with or without a mortgage, table X25, 45 fields); H20: Selected monthly owner costs as a percentage of household income, SMOCAPI (universe: owner-occupied housing units with or without a mortgage, table X25, 26 fields); H21: Contract rent distribution and rent asked distribution in dollars (universe: renter-occupied housing units paying cash rent and vacant, for rent, and rented not occupied housing units, table X25, 7 fields); H22: Gross rent (universe: occupied units paying rent, table X25, 28 fields), and; X23: Gross rent as percentage of household income (universe: occupied units paying rent, table X25, 11 fields). The US Census geodemographic data are based on the 2013 TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project github page (https://github.com/ktalexan/OCACS-Geodemographics).
+- **Terms of Use**: Original datasets from US Census TigerLine Geography (https://www.census.gov/geo/maps-data/data/tiger-line.html), and American FactFinder (https://factfinder.census.gov/) for the selected tables of the American Community Survey (ACS, 2013). Linking and merging geographic with demographic tables along with final production of the merged spatial geodatabase and online datasets are performed by Orange County Public Works, OC Survey Geospatial Services, Dr. Kostas Alexandridis, GISP.
+- **Map**: https://data-ocpw.opendata.arcgis.com/maps/ocacs-2013-housing-characteristics-for-census-tracts
+- **Web**: https://data-ocpw.opendata.arcgis.com/datasets/OCPW::ocacs-2013-housing-characteristics-for-census-tracts/about
+- **REST**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Census_Tracts/FeatureServer
+- **Metadata**: https://www.arcgis.com/sharing/rest/content/items/0875a0151f8f4371ba20f3f5789f435b/info/metadata/metadata.xml?format=default&output=html
+- **GeoService API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Census_Tracts/FeatureServer/1/query?outFields=*&where=1%3D1
+- **GeoJSON API**: https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/OCACS_2013_Housing_Characteristics_for_Census_Tracts/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson
 
 [<div align="right"><< Back to Contents</div>](#contents)
 
