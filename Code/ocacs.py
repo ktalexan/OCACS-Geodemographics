@@ -43,7 +43,7 @@ def ocacs(prjPath):
         
     # Compute the US Congress number based on the year of the ACS survey
     for no, geo in enumerate(geoList):
-        if g == "CD":
+        if geo == "CD":
             cdn = int(gdbListIn[no].split(".gdb")[0].split("_")[4])
 
     # Lookup geo-reference table
