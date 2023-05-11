@@ -34,13 +34,15 @@ def ocacs(prjPath):
                 prefix = f"{prod}{year}"
         
     # Compute the US Congress number based on the year of the ACS survey
-    cdn = int(112 + (year - 2012) * 0.5)
+    for no, geo in enumerate(geoList):
+        if g == "CD":
+            cdn = int(gdbListIn[no].split(".gdb")[0].split("_")[4])
 
     # Lookup geo-reference table
     geolookup = {
         "COUNTY": ("CO", "Orange County"),
         "COUSUB": ("CS", "County Subdivisions"),
-        "PLACE": ("PL", "Cities/Places"),
+        "PLACE": ("PL", "Cities"),
         "ZCTA": ("ZC", "ZIP Code Tabulation Areas"),
         "CD": ("CD", f"Congressional Districts of the {cdn}th US Congress"),
         "SLDL": ("LL", "State Assembly Legislative Districts"),
@@ -63,7 +65,7 @@ def ocacs(prjPath):
     if "COUSUB" in geoList:
         geoNames["CS"] = "County Subdivisions"
     if "PLACE" in geoList:
-        geoNames["PL"] = "Cities/Places"
+        geoNames["PL"] = "Cities"
     if "ZCTA" in geoList:
         geoNames["ZC"] = "ZIP Code Tabulation Areas"
     if "CD" in geoList:
