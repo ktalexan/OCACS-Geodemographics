@@ -430,6 +430,7 @@ def ocacs(prjPath):
 
     print("\nSTEP 4: COMPILING AND WRITING OUT METADATA TO GEODATABASES AND LAYERS")
     
+    print("\tSetting up arcpy environment for metadata processing...")
     # Set and obtain the workspaces (geodatabases) in the folder
     arcpy.env.workspace = dataOut
     workspaces = arcpy.ListWorkspaces("*", "FileGDB")
@@ -437,6 +438,7 @@ def ocacs(prjPath):
     # Define the basic Tags
     basicTags = ["geodemographics", "Orange County", "California", "US Census", "OCACS", "ACS", "American Community Survey"]
     
+    print("\tSetting up metadata dictionaries...")
     # Geodatabase Metadata Template
     cDictionary = {
         "D": {
@@ -486,10 +488,12 @@ def ocacs(prjPath):
         "BG": "Block Groups",
         "TR": "Census Tracts"
     }
-        
+    
+    print("\tFormatting metadata strings...")
     # Format the metadata from the template
     metadataList = {}
     for w in workspaces:
+        print(f"\t\tProcessing workspace: {w}...")
         f = os.path.split(w)[1]
         c = f.split('.gdb')[0].split(f"OCACS{year}")[1]
         cName = cDictionary[c]["Name"]
@@ -511,6 +515,7 @@ def ocacs(prjPath):
         features = arcpy.ListFeatureClasses()
         featuresPath = [os.path.join(arcpy.env.workspace, f) for f in features]
         for g in gDictionary:
+            print(f"\t\t\tProcessing geography: {g}...")
             gName = gDictionary[g]
             cField = cDictionary[c]["Fields"]
             gDescription = f"US Census American Community Survey (ACS) {year}, 5-year estimates of the key {cName} of {gName} geographic level in Orange County, California. {cField}. The US Census geodemographic data are based on the {year} TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project GitHub page (<a href='https://github.com/ktalexan/OCACS-Geodemographics' target='blank'>https://github.com/ktalexan/OCACS-Geodemographics</a>)."
@@ -525,10 +530,11 @@ def ocacs(prjPath):
             metadataList[c]["Geographies"][g]["Description"] = gDescription
             metadataList[c]["Geographies"][g]["Credits"] = metadataList[c]["Credits"]
             metadataList[c]["Geographies"][g]["Thumbnail"] = metadataList[c]["Thumbnail"]
-        
-        
+    
+    print("\tAssigning metadata to feature layers...")
     # Assign metadata
     for key in metadataList:
+        print(f"\t\tApplying metadata for {key}...")
         cMetadata = md.Metadata()
         cMetadata.title = metadataList[key]["Title"]
         cMetadata.tags = metadataList[key]["Tags"]
@@ -545,6 +551,7 @@ def ocacs(prjPath):
             print(f"{metadataList[key]['Name']} is Read Only...")
         gList = metadataList[key]["Geographies"]
         for k in gList:
+            print(f"\t\t\tApplying metadata to gegoraphy {k}...")
             gMetadata = md.Metadata()
             gMetadata.title = gList[k]["Title"]
             gMetadata.tags = gList[k]["Tags"]
@@ -559,7 +566,8 @@ def ocacs(prjPath):
                 gTarget.save()
             elif gTarget.isReadOnly:
                 print(f"{gMetadata[k]['Name']} is Read Only...")
-        
+    
+    print("\tCompleted processing...")
 
 
 def getTableVars():
