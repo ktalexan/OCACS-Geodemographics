@@ -436,7 +436,7 @@ def ocacs(prjPath):
     workspaces = arcpy.ListWorkspaces("*", "FileGDB")
     
     # Define the basic Tags
-    basicTags = ["geodemographics", "Orange County", "California", "US Census", "OCACS", "ACS", "American Community Survey"]
+    basicTags = "geodemographics", "Orange County", "California", "US Census", "OCACS", "ACS", "American Community Survey"
     
     print("\tSetting up metadata dictionaries...")
     # Geodatabase Metadata Template
