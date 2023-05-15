@@ -12,12 +12,14 @@ def ocacs_metadata(prjPath):
     dataIn = os.path.join(prjPath, "Original")
     dataOut = os.path.join(prjPath, "Processed")
     
+    
     # Set and obtain the workspaces (geodatabases) in the folder
     arcpy.env.workspace = dataOut
     workspaces = arcpy.ListWorkspaces("*", "FileGDB")
     
-    # Get the year
+    # Get the year and cdn
     year = int(os.path.split(prjPath)[1].split("OCACS")[1])
+    cdn = int([s for s in os.listdir(dataIn) if "_CD_" in s][0].split(".gdb")[0].split("_CD_")[1])
     
     # Obtain the geodatabase list (no path)
     gdbListIn = [os.path.split(w)[1] for w in workspaces]
