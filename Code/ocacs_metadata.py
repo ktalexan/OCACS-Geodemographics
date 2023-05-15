@@ -2,11 +2,10 @@ import os, arcpy
 from arcpy import metadata as md
 
 def ocacs_metadata(prjPath):
-    """_summary_
-    OCACS Python Class for Metadata Only
+    """OCACS Python Class for Metadata Only
 
     Args:
-        prjPath (_type_): _description_
+        prjPath (folder path): link to geodatabase folder (processed) for updating metadatay
     """
     
     # Obtain the Data folders in the project directory
