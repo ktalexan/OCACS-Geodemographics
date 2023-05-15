@@ -24,7 +24,7 @@ def ocacs_metadata(prjPath):
     gdbListIn = [os.path.split(w)[1] for w in workspaces]
     
     # Define the basic Tags
-    basicTags = ["geodemographics", "Orange County", "California", "US Census", "OCACS", "ACS", "American Community Survey"]
+    basicTags = "geodemographics, Orange County, California, US Census, OCACS, ACS, American Community Survey"
     
     # Geodatabase Metadata Template
     cDictionary = {
