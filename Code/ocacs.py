@@ -515,7 +515,7 @@ def ocacs(prjPath):
         features = arcpy.ListFeatureClasses()
         featuresPath = [os.path.join(arcpy.env.workspace, f) for f in features]
         for g in gDictionary:
-            print(f"\t\t\tProcessing geography: {g}...")
+            print(f"\t\t\tProcessing geography: {gDictionary[g]}...")
             gName = gDictionary[g]
             cField = cDictionary[c]["Fields"]
             gDescription = f"US Census American Community Survey (ACS) {year}, 5-year estimates of the key {cName} of {gName} geographic level in Orange County, California. {cField}. The US Census geodemographic data are based on the {year} TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project GitHub page (<a href='https://github.com/ktalexan/OCACS-Geodemographics' target='blank'>https://github.com/ktalexan/OCACS-Geodemographics</a>)."
@@ -534,7 +534,7 @@ def ocacs(prjPath):
     print("\tAssigning metadata to feature layers...")
     # Assign metadata
     for key in metadataList:
-        print(f"\t\tApplying metadata for {key}...")
+        print(f"\t\tApplying metadata for {metadataList[key]['Name']}...")
         cMetadata = md.Metadata()
         cMetadata.title = metadataList[key]["Title"]
         cMetadata.tags = metadataList[key]["Tags"]
@@ -551,7 +551,7 @@ def ocacs(prjPath):
             print(f"{metadataList[key]['Name']} is Read Only...")
         gList = metadataList[key]["Geographies"]
         for k in gList:
-            print(f"\t\t\tApplying metadata to gegoraphy {k}...")
+            print(f"\t\t\tApplying metadata to gegoraphy {gDictionary[k]}...")
             gMetadata = md.Metadata()
             gMetadata.title = gList[k]["Title"]
             gMetadata.tags = gList[k]["Tags"]
@@ -567,7 +567,7 @@ def ocacs(prjPath):
             elif gTarget.isReadOnly:
                 print(f"{gMetadata[k]['Name']} is Read Only...")
     
-    print("\tCompleted processing...")
+    print("\tCompleted processing...\n")
 
 
 def getTableVars():

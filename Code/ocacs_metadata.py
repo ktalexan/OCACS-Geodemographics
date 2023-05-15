@@ -8,6 +8,10 @@ def ocacs_metadata(prjPath):
         prjPath (folder path): link to geodatabase folder (processed) for updating metadatay
     """
     
+    print("\nCOMPILING AND WRITING OUT METADATA TO GEODATABASES AND LAYERS")
+    
+    
+    print("\tSetting up arcpy environment for metadata processing...")
     # Obtain the Data folders in the project directory
     dataIn = os.path.join(prjPath, "Original")
     dataOut = os.path.join(prjPath, "Processed")
@@ -27,6 +31,7 @@ def ocacs_metadata(prjPath):
     # Define the basic Tags
     basicTags = "geodemographics, Orange County, California, US Census, OCACS, ACS, American Community Survey"
     
+    print("\tSetting up metadata dictionaries...")
     # Geodatabase Metadata Template
     cDictionary = {
         "D": {
@@ -77,9 +82,11 @@ def ocacs_metadata(prjPath):
         "TR": "Census Tracts"
     }
     
+    print("\tFormatting metadata strings...")
     # Format the metadata from the template
     metadataList = {}
     for w in workspaces:
+        print(f"\t\tProcessing workspace: {w}...")
         f = os.path.split(w)[1]
         c = f.split('.gdb')[0].split(f"OCACS{year}")[1]
         cName = cDictionary[c]["Name"]
@@ -101,6 +108,7 @@ def ocacs_metadata(prjPath):
         features = arcpy.ListFeatureClasses()
         featuresPath = [os.path.join(arcpy.env.workspace, f) for f in features]
         for g in gDictionary:
+            print(f"\t\t\tProcessing geography: {gDictionary[g]}...")
             gName = gDictionary[g]
             cField = cDictionary[c]["Fields"]
             gDescription = f"US Census American Community Survey (ACS) {year}, 5-year estimates of the key {cName} of {gName} geographic level in Orange County, California. {cField}. The US Census geodemographic data are based on the {year} TigerLines across multiple geographies. The spatial geographies were merged with ACS data tables. See full documentation at the OCACS project GitHub page (<a href='https://github.com/ktalexan/OCACS-Geodemographics' target='blank'>https://github.com/ktalexan/OCACS-Geodemographics</a>)."
@@ -116,9 +124,10 @@ def ocacs_metadata(prjPath):
             metadataList[c]["Geographies"][g]["Credits"] = metadataList[c]["Credits"]
             metadataList[c]["Geographies"][g]["Thumbnail"] = metadataList[c]["Thumbnail"]
     
-    
+    print("\tAssigning metadata to feature layers...")
     # Assign metadata
     for key in metadataList:
+        print(f"\t\tApplying metadata for {metadataList[key]['Name']}...")
         cMetadata = md.Metadata()
         cMetadata.title = metadataList[key]["Title"]
         cMetadata.tags = metadataList[key]["Tags"]
@@ -135,6 +144,7 @@ def ocacs_metadata(prjPath):
             print(f"{metadataList[key]['Name']} is Read Only...")
         gList = metadataList[key]["Geographies"]
         for k in gList:
+            print(f"\t\t\tApplying metadata to gegoraphy {gDictionary[k]}...")
             gMetadata = md.Metadata()
             gMetadata.title = gList[k]["Title"]
             gMetadata.tags = gList[k]["Tags"]
@@ -149,4 +159,6 @@ def ocacs_metadata(prjPath):
                 gTarget.save()
             elif gTarget.isReadOnly:
                 print(f"{gMetadata[k]['Name']} is Read Only...")
+    
+    print("\tCompleted processing...\n)
     
